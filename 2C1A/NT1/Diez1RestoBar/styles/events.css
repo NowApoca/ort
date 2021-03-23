@@ -1,0 +1,37 @@
+
+
+
+
+.event{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.event-image{
+    width: 70%;
+    margin-left: 15%;
+    height: 100%;
+    object-fit: cover;
+    background-color: palegoldenrod;
+    border-radius: 3rem;
+}
+
+.event-banner{
+    position: absolute;
+    bottom: 3rem;
+    font-weight: bolder;
+    height: auto;
+    min-height: 20%;
+    background-color: rgba(150, 157, 161, 0.6);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+

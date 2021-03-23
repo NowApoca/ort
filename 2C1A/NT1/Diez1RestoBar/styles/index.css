@@ -1,29 +1,17 @@
-/* style.css */
-
-body{
-  background: rgb(245,245,245);
-  color: black;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: Helvetica;
-  min-height: 100vh;
-  display:flex; 
-  flex-direction:column; 
-  background-image: url("./images/background.jpg");
-}
 
 #banner{
   text-align: center;
   background-size: cover;
   color: white;
   text-shadow: 1px 1px 5px black;
-  min-height: 100vh;
+  min-height: 80vh;
   height: auto;
   display: flex;
   flex-direction: column;
   width: 60%;
   margin-left: 20%;
   align-items: center;
+  justify-content: center;
 }
 
 .banner-slogan{
@@ -92,35 +80,6 @@ body{
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-}
-
-#footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-  width: 100%;
-  margin-top:auto; 
-}
-
-
-
-#footer a {
-  color: lightgrey;
-  font-size: 4rem;
-}
-
-#footer a:hover {
-  color: white;
-}
-
-.footer-icons-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.footer-icon{
-  flex: 1;
 }
 
 @media (max-width: 600px) {
